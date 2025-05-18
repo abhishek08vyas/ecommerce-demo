@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 210 40% 98%;
+		--foreground: 222.2 84% 4.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 222.2 84% 4.9%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 222.2 84% 4.9%;
+
+		--primary: 25 61 87; /* RGB for #193d57 */
+		--primary-foreground: 210 40% 98%;
+
+		--secondary: 179 158 219; /* RGB for #B39EDB (approx) */
+		--secondary-foreground: 222.2 47.4% 11.2%;
+
+		--muted: 210 40% 96.1%;
+		--muted-foreground: 215.4 16.3% 46.9%;
+
+		--accent: 210 40% 96.1%;
+		--accent-foreground: 222.2 47.4% 11.2%;
+
+		--destructive: 0 84.2% 60.2%;
+		--destructive-foreground: 210 40% 98%;
+
+		--border: 223 230 240; /* RGB for hsl(214.3, 31.8%, 91.4%) */
+		--input: 214.3 31.8% 91.4%;
+		--ring: 222.2 84% 4.9%;
+
+		--radius: 0.5rem;
+	}
+
+	.dark {
+		--background: 222.2 84% 4.9%;
+		--foreground: 210 40% 98%;
+
+		--card: 222.2 84% 4.9%;
+		--card-foreground: 210 40% 98%;
+
+		--popover: 222.2 84% 4.9%;
+		--popover-foreground: 210 40% 98%;
+
+		--primary: 25 61 87; /* Same RGB in dark mode */
+		--primary-foreground: 210 40% 98%;
+
+		--secondary: 179 158 219;
+		--secondary-foreground: 210 40% 98%;
+
+		--muted: 217.2 32.6% 17.5%;
+		--muted-foreground: 215 20.2% 65.1%;
+
+		--accent: 217.2 32.6% 17.5%;
+		--accent-foreground: 210 40% 98%;
+
+		--destructive: 0 62.8% 30.6%;
+		--destructive-foreground: 210 40% 98%;
+
+		--border: 30 42 58; /* RGB for dark mode border */
+		--input: 217.2 32.6% 17.5%;
+		--ring: 212.7 26.8% 83.9%;
+	}
+}
+
+/* Rest of your CSS remains the same */
+@layer base {
+	* {
+		@apply border-border;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+	}
+}
+
+@layer components {
+	.container-custom {
+		@apply container mx-auto px-4 sm:px-6 lg:px-8;
+	}
+
+	.btn-primary {
+		@apply bg-brand-400 text-white px-4 py-2 rounded-md hover:bg-brand-500 transition-colors;
+	}
+
+	.btn-secondary {
+		@apply bg-purple-400 text-white px-4 py-2 rounded-md hover:bg-purple-400/80 transition-colors;
+	}
+
+	.btn-outline {
+		@apply border border-brand-500 text-brand-500 px-4 py-2 rounded-md hover:bg-brand-50 transition-colors;
+	}
+}
