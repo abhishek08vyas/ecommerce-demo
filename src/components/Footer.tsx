@@ -11,9 +11,9 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-xl font-bold mb-4">SleepWell</h3>
+            <h3 className="text-xl font-bold mb-4">Aetheris-Lifestyle</h3>
             <p className="text-gray-300 mb-4">
-              Providing quality sleep apnea treatments and solutions for better rest and improved health.
+              Elevating your audio experience with premium headphones and cutting-edge electronics for the modern lifestyle.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">
@@ -47,7 +47,7 @@ const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/about" className="text-gray-300 hover:text-white transition-colors">
-                  About Sleep Apnea
+                  About Us
                 </Link>
               </li>
               <li>
@@ -69,42 +69,42 @@ const Footer: React.FC = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/products?category=CPAP Machines"
+                  to="/products?category=Headphones"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  CPAP Machines
+                  Headphones
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/products?category=CPAP Masks"
+                  to="/products?category=Wireless%20Earbuds"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  CPAP Masks
+                  Wireless Earbuds
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/products?category=Accessories"
+                  to="/products?category=Gaming%20Audio"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  Accessories
+                  Gaming Audio
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/products?category=Travel CPAP"
+                  to="/products?category=Smart%20Electronics"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  Travel CPAP
+                  Smart Electronics
                 </Link>
               </li>
               <li>
                 <Link
-                  to="/products?category=Alternative Treatments"
+                  to="/products?category=Audio%20Accessories"
                   className="text-gray-300 hover:text-white transition-colors"
                 >
-                  Alternative Treatments
+                  Audio Accessories
                 </Link>
               </li>
             </ul>
@@ -117,19 +117,19 @@ const Footer: React.FC = () => {
               <li className="flex items-start">
                 <MapPin size={18} className="mr-2 mt-1" />
                 <span className="text-gray-300">
-                  123 Sleep Street, Restful City, RC 12345
+                  456 Tech Avenue, Innovation District, ID 67890
                 </span>
               </li>
               <li className="flex items-center">
                 <Phone size={18} className="mr-2" />
-                <a href="tel:1-800-SLEEP-WELL" className="text-gray-300 hover:text-white transition-colors">
-                  1-800-SLEEP-WELL
+                <a href="tel:1-800-AETHERIS" className="text-gray-300 hover:text-white transition-colors">
+                  1-800-AETHERIS
                 </a>
               </li>
               <li className="flex items-center">
                 <Mail size={18} className="mr-2" />
-                <a href="mailto:info@sleepwell.com" className="text-gray-300 hover:text-white transition-colors">
-                  info@sleepwell.com
+                <a href="mailto:info@aetheris-lifestyle.com" className="text-gray-300 hover:text-white transition-colors">
+                  info@aetheris-lifestyle.com
                 </a>
               </li>
             </ul>
@@ -138,7 +138,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-800 mt-10 pt-6 text-center md:flex md:justify-between md:text-left">
           <p className="text-gray-400">
-            &copy; {currentYear} SleepWell. All rights reserved.
+            &copy; {currentYear} Aetheris-Lifestyle. All rights reserved.
           </p>
           <div className="mt-4 md:mt-0">
             <Link to="/privacy" className="text-gray-400 hover:text-white transition-colors mx-2">

@@ -24,7 +24,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link to="/" className="text-brand-600 font-bold text-2xl">
-              SleepWell
+            Aetheris-Lifestyle
             </Link>
           </div>
 
@@ -64,7 +64,7 @@ const Navbar: React.FC = () => {
               </div>
             </div>
             <Link to="/about" className="text-gray-700 hover:text-brand-600 transition-colors">
-              About Sleep Apnea
+              About Aetheris-Lifestyle
             </Link>
           </nav>
 
@@ -180,7 +180,7 @@ const Navbar: React.FC = () => {
               className="block py-2 text-gray-700 hover:text-brand-600 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
-              About Sleep Apnea
+              About Aetheris-Lifestyle
             </Link>
             {!isAuthenticated && (
               <Link

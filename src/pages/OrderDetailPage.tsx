@@ -9,15 +9,15 @@ import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, Package, Truck, CheckCircle, Clock, CreditCard } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 
-// Mock order data for demonstration
+// Mock order data for Aetheris Lifestyle electronics
 const mockOrderDetails = {
   "ORD-1234": {
     id: "ORD-1234",
     date: "2025-04-28",
-    total: 249.97,
-    subtotal: 229.97,
-    shipping: 10.00,
-    tax: 10.00,
+    total: 649.97,
+    subtotal: 599.97,
+    shipping: 25.00,
+    tax: 25.00,
     status: "Delivered",
     trackingNumber: "TRK123456789",
     paymentMethod: {
@@ -36,27 +36,27 @@ const mockOrderDetails = {
     items: [
       {
         id: "PROD-001",
-        name: "ResMed AirSense 11 AutoSet",
-        price: 129.99,
+        name: "Aetheris Phantom Pro Wireless Headphones",
+        price: 399.99,
         quantity: 1,
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e"
       },
       {
         id: "PROD-002",
-        name: "Philips DreamWear Nasal Mask",
-        price: 59.99,
-        quantity: 2,
-        image: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7"
+        name: "Aetheris Studio Monitor Speakers",
+        price: 199.98,
+        quantity: 1,
+        image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1"
       }
     ]
   },
   "ORD-5678": {
     id: "ORD-5678",
     date: "2025-05-10",
-    total: 129.99,
-    subtotal: 119.99,
-    shipping: 5.00,
-    tax: 5.00,
+    total: 329.99,
+    subtotal: 299.99,
+    shipping: 15.00,
+    tax: 15.00,
     status: "Processing",
     paymentMethod: {
       type: "PayPal"
@@ -72,20 +72,20 @@ const mockOrderDetails = {
     items: [
       {
         id: "PROD-003",
-        name: "Travel CPAP Machine",
-        price: 129.99,
+        name: "Aetheris Elite Gaming Headset",
+        price: 299.99,
         quantity: 1,
-        image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
+        image: "https://images.unsplash.com/photo-1599669454699-248893623440"
       }
     ]
   },
   "ORD-9012": {
     id: "ORD-9012",
     date: "2025-05-01",
-    total: 78.50,
-    subtotal: 69.50,
-    shipping: 5.00,
-    tax: 4.00,
+    total: 278.50,
+    subtotal: 249.50,
+    shipping: 15.00,
+    tax: 14.00,
     status: "Shipped",
     trackingNumber: "TRK987654321",
     paymentMethod: {
@@ -104,17 +104,55 @@ const mockOrderDetails = {
     items: [
       {
         id: "PROD-004",
-        name: "CPAP Cleaning Supplies Kit",
-        price: 29.25,
+        name: "Aetheris True Wireless Earbuds",
+        price: 149.99,
         quantity: 1,
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+        image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df"
       },
       {
         id: "PROD-005",
-        name: "CPAP Pillow",
-        price: 49.25,
+        name: "Aetheris Portable Bluetooth Speaker",
+        price: 99.51,
         quantity: 1,
-        image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
+        image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1"
+      }
+    ]
+  },
+  "ORD-3456": {
+    id: "ORD-3456",
+    date: "2025-05-15",
+    total: 1299.99,
+    subtotal: 1199.99,
+    shipping: 50.00,
+    tax: 50.00,
+    status: "Processing",
+    paymentMethod: {
+      type: "Credit Card",
+      lastFour: "8888",
+      expiryDate: "12/27"
+    },
+    shippingAddress: {
+      name: "Sarah Wilson",
+      address: "321 Tech Drive",
+      city: "Innovation City",
+      state: "WA",
+      zipCode: "98101",
+      country: "United States"
+    },
+    items: [
+      {
+        id: "PROD-006",
+        name: "Aetheris Quantum Noise-Cancelling Headphones",
+        price: 799.99,
+        quantity: 1,
+        image: "https://images.unsplash.com/photo-1484704849700-f032a568e944"
+      },
+      {
+        id: "PROD-007",
+        name: "Aetheris Pro Audio Interface",
+        price: 400.00,
+        quantity: 1,
+        image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f"
       }
     ]
   }

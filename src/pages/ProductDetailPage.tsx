@@ -294,14 +294,14 @@ const ProductDetailPage: React.FC = () => {
                   {product.description}
                 </p>
                 <p className="text-gray-600 mt-4">
-                  Our {product.name} is designed with sleep apnea patients in mind, providing comfort and 
-                  efficiency to help you get the restful sleep you deserve. Each product undergoes rigorous 
-                  testing to ensure it meets our high standards for quality and performance.
+                  Our {product.name} is engineered with audio enthusiasts in mind, delivering exceptional 
+                  sound quality and premium build materials to enhance your listening experience. Each product 
+                  undergoes rigorous testing to ensure it meets our high standards for performance and durability.
                 </p>
                 <p className="text-gray-600 mt-4">
-                  We stand behind our products with a comprehensive warranty and excellent customer support. 
-                  If you have any questions about this product or how to use it, our sleep specialists are 
-                  available 24/7 to assist you.
+                  We stand behind our products with comprehensive warranty coverage and excellent customer support. 
+                  If you have any questions about this product or technical specifications, our audio specialists 
+                  are available to assist you with expert guidance and personalized recommendations.
                 </p>
               </div>
             )}
@@ -387,7 +387,7 @@ const ProductDetailPage: React.FC = () => {
                 <div className="space-y-6">
                   <div className="border-b border-gray-200 pb-6">
                     <div className="flex justify-between mb-2">
-                      <h4 className="font-medium text-gray-800">John D.</h4>
+                      <h4 className="font-medium text-gray-800">Alex M.</h4>
                       <span className="text-sm text-gray-500">2 months ago</span>
                     </div>
                     <div className="flex mb-2">
@@ -402,15 +402,15 @@ const ProductDetailPage: React.FC = () => {
                       ))}
                     </div>
                     <p className="text-gray-600">
-                      This product has been a game-changer for my sleep apnea. 
-                      I'm finally getting restful sleep and waking up feeling refreshed. 
-                      The quality is excellent and it's very comfortable to use.
+                      The sound quality is absolutely incredible! The bass response is punchy without being 
+                      overwhelming, and the highs are crystal clear. I'm a music producer and these have 
+                      become my go-to headphones for both studio work and casual listening.
                     </p>
                   </div>
                   
                   <div className="border-b border-gray-200 pb-6">
                     <div className="flex justify-between mb-2">
-                      <h4 className="font-medium text-gray-800">Sarah T.</h4>
+                      <h4 className="font-medium text-gray-8 00">Emma K.</h4>
                       <span className="text-sm text-gray-500">1 month ago</span>
                     </div>
                     <div className="flex mb-2">
@@ -425,15 +425,15 @@ const ProductDetailPage: React.FC = () => {
                       ))}
                     </div>
                     <p className="text-gray-600">
-                      Great product overall. It took me a few nights to get used to it, 
-                      but now I can't imagine sleeping without it. My only small complaint 
-                      is that I wish the instruction manual was a bit more detailed.
+                      Excellent build quality and the battery life is amazing. I use these daily for 
+                      work calls and music. The noise cancellation works great in noisy environments. 
+                      My only minor complaint is they could be slightly more comfortable for very long sessions.
                     </p>
                   </div>
                   
                   <div>
                     <div className="flex justify-between mb-2">
-                      <h4 className="font-medium text-gray-800">Michael R.</h4>
+                      <h4 className="font-medium text-gray-800">David L.</h4>
                       <span className="text-sm text-gray-500">3 weeks ago</span>
                     </div>
                     <div className="flex mb-2">
@@ -448,9 +448,9 @@ const ProductDetailPage: React.FC = () => {
                       ))}
                     </div>
                     <p className="text-gray-600">
-                      Excellent product and even better customer service. When I had a question 
-                      about setup, their support team was immediately helpful and walked me through 
-                      everything. Highly recommend both the product and this company!
+                      Best purchase I've made this year! The Bluetooth connection is rock solid, 
+                      setup was effortless, and the sound signature is perfect for my taste. 
+                      Customer service was also fantastic when I had questions about the app features.
                     </p>
                   </div>
                 </div>
