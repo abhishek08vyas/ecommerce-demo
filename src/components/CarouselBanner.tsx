@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import {
-    Carousel,
-    CarouselContent,
-    CarouselItem,
-    CarouselNext,
-    CarouselPrevious,
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 
 interface BannerProps {
@@ -21,33 +21,33 @@ interface BannerProps {
 
 const bannerData: BannerProps[] = [
   {
-    title: "Experience Better Sleep Tonight",
-    description: "Discover our premium CPAP machines with whisper-quiet technology",
-    buttonText: "Shop CPAP Machines",
-    buttonLink: "/products?category=CPAP%20Machines",
+    title: "Elevate Your Audio Experience",
+    description: "Discover premium wireless headphones with crystal-clear sound and all-day comfort",
+    buttonText: "Shop Headphones",
+    buttonLink: "/products?category=Headphones",
     buttonVariant: "primary",
-    imageSrc: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
-    imageAlt: "Person sleeping peacefully with CPAP machine",
+    imageSrc: "https://images.unsplash.com/photo-1583394838336-acd977736f90",
+    imageAlt: "Premium wireless headphones on modern desk",
     bgColor: "bg-gradient-to-r from-brand-600 to-brand-400",
   },
   {
-    title: "Sleep Comfortably Every Night",
-    description: "Find the perfect mask with our comfort-fit collection",
-    buttonText: "Explore Masks",
-    buttonLink: "/products?category=CPAP%20Masks",
+    title: "Smart Tech for Modern Living",
+    description: "Cutting-edge electronics that seamlessly integrate into your lifestyle",
+    buttonText: "Explore Electronics",
+    buttonLink: "/products?category=Electronics",
     buttonVariant: "secondary",
-    imageSrc: "https://images.unsplash.com/photo-1649972904349-6e44c42644a7",
-    imageAlt: "CPAP Mask Collection",
+    imageSrc: "https://images.unsplash.com/photo-1468495244123-6c6c332eeece",
+    imageAlt: "Modern electronics and smart devices",
     bgColor: "bg-gradient-to-r from-purple-600 to-purple-400",
   },
   {
-    title: "Travel Without Compromising Therapy",
-    description: "Compact devices designed for your journey",
-    buttonText: "View Travel CPAPs",
-    buttonLink: "/products?category=Travel%20CPAP",
+    title: "Gaming Audio Revolution",
+    description: "Professional gaming headsets with immersive surround sound",
+    buttonText: "View Gaming Gear",
+    buttonLink: "/products?category=Gaming%20Audio",
     buttonVariant: "outline",
-    imageSrc: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b",
-    imageAlt: "Travel CPAP",
+    imageSrc: "https://images.unsplash.com/photo-1612198188060-c7c2a3b66eae",
+    imageAlt: "Gaming headset with RGB lighting",
     bgColor: "bg-gradient-to-r from-brand-700 to-brand-500",
   },
 ];

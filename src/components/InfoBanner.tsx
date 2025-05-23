@@ -31,7 +31,7 @@ const InfoBanner: React.FC<InfoBannerProps> = ({ type }) => {
               <div>
                 <h3 className="text-lg font-semibold mb-2">Satisfaction Guaranteed</h3>
                 <p className="text-gray-600">
-                  30-day return policy on all products. Your comfort is our priority.
+                  30-day return policy on all products. Your satisfaction is our priority.
                 </p>
               </div>
             </div>
@@ -43,7 +43,7 @@ const InfoBanner: React.FC<InfoBannerProps> = ({ type }) => {
               <div>
                 <h3 className="text-lg font-semibold mb-2">24/7 Support</h3>
                 <p className="text-gray-600">
-                  Our sleep specialists are always available to answer your questions.
+                  Our audio specialists are always available to help with your tech needs.
                 </p>
               </div>
             </div>
@@ -58,16 +58,16 @@ const InfoBanner: React.FC<InfoBannerProps> = ({ type }) => {
       <div className="container-custom">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold mb-4">
-            Not sure which CPAP machine is right for you?
+            Not sure which headphones are right for you?
           </h2>
           <p className="text-xl mb-8">
-            Take our quick assessment to find the perfect solution for your sleep apnea needs.
+            Take our quick audio profile quiz to find the perfect sound experience for your lifestyle.
           </p>
           <Link
-            to="/assessment"
+            to="/audio-quiz"
             className="inline-flex items-center bg-white text-brand-600 px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition-colors"
           >
-            Take the Assessment
+            Take the Audio Quiz
             <ArrowRight className="ml-2 h-5 w-5" />
           </Link>
         </div>

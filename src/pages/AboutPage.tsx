@@ -28,26 +28,31 @@ const AboutPage: React.FC = () => {
     <Layout>
       <div className="container-custom py-12">
         <div className="max-w-3xl mx-auto">
-          <h1 className="text-3xl font-bold mb-6 text-center">About Sleep Apnea</h1>
+          <h1 className="text-3xl font-bold mb-6 text-center">About Aetheris Lifestyle</h1>
           
           <div className="prose max-w-none mb-12">
             <p className="text-lg mb-4">
-              At SleepWell, we're dedicated to improving the quality of life for people with sleep apnea and other sleep-related conditions. Our mission is to provide the highest quality CPAP machines, masks, and accessories to help you breathe easier and sleep better.
+              At Aetheris Lifestyle, we're passionate about delivering exceptional audio experiences that elevate your daily life. Our mission is to create premium headphones, speakers, and audio electronics that combine cutting-edge technology with sophisticated design, helping you discover the true essence of sound.
             </p>
             
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Understanding Sleep Apnea</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">Our Audio Philosophy</h2>
             <p>
-              Sleep apnea is a serious sleep disorder that occurs when a person's breathing is interrupted during sleep. People with untreated sleep apnea stop breathing repeatedly during their sleep, sometimes hundreds of times. This means the brain and the rest of the body may not get enough oxygen.
+              We believe that great audio isn't just about technical specifications—it's about creating an emotional connection between you and your music. Every Aetheris product is meticulously engineered to deliver crystal-clear highs, rich mids, and deep, powerful bass that brings your favorite tracks to life with stunning clarity and detail.
             </p>
             
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Our Commitment</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">Premium Quality & Innovation</h2>
             <p>
-              We believe that everyone deserves a good night's sleep. Our team of sleep specialists works tirelessly to curate the best selection of sleep apnea therapy products, ensuring that you have access to the latest technology and most comfortable options available.
+              From our flagship Phantom Pro wireless headphones to our studio-grade monitors, each Aetheris product represents the perfect fusion of form and function. We use only the finest materials—premium leather, aerospace-grade aluminum, and custom-tuned drivers—to ensure that your investment delivers exceptional performance for years to come.
             </p>
             
-            <h2 className="text-2xl font-semibold mt-8 mb-4">Expert Support</h2>
+            <h2 className="text-2xl font-semibold mt-8 mb-4">Crafted for Audiophiles</h2>
             <p>
-              Our customer support team includes certified sleep specialists who can help guide you through the process of choosing the right equipment for your needs. We understand that adjusting to sleep therapy can be challenging, and we're here to support you every step of the way.
+              Whether you're a professional musician, content creator, or simply someone who appreciates superior sound quality, Aetheris products are designed to meet the demands of discerning listeners. Our team of audio engineers and designers work tirelessly to push the boundaries of what's possible in personal audio technology.
+            </p>
+
+            <h2 className="text-2xl font-semibold mt-8 mb-4">Sustainable Excellence</h2>
+            <p>
+              We're committed to responsible manufacturing practices and sustainable design. Our packaging uses recycled materials, and we offer repair services to extend the life of your Aetheris products, because exceptional audio should be built to last.
             </p>
           </div>
           
@@ -60,15 +65,22 @@ const AboutPage: React.FC = () => {
               <div>
                 <div className="flex items-center mb-4">
                   <Mail className="h-5 w-5 text-brand-600 mr-3" />
-                  <span>support@sleepwell.com</span>
+                  <span>hello@aetheris-lifestyle.com</span>
                 </div>
                 <div className="flex items-center mb-4">
                   <Phone className="h-5 w-5 text-brand-600 mr-3" />
-                  <span>1-800-SLEEP-WELL</span>
+                  <span>1-800-AETHERIS</span>
                 </div>
                 <div className="flex items-center">
                   <MapPin className="h-5 w-5 text-brand-600 mr-3" />
-                  <span>1234 Sleep Street, Reston, VA 20190</span>
+                  <span>1234 Audio Drive, Austin, TX 78701</span>
+                </div>
+                
+                <div className="mt-6 p-4 bg-gray-50 rounded-lg">
+                  <h3 className="font-semibold text-gray-900 mb-2">Customer Support Hours</h3>
+                  <p className="text-sm text-gray-600">Monday - Friday: 9AM - 8PM EST</p>
+                  <p className="text-sm text-gray-600">Saturday: 10AM - 6PM EST</p>
+                  <p className="text-sm text-gray-600">Sunday: 12PM - 5PM EST</p>
                 </div>
               </div>
               
@@ -111,6 +123,7 @@ const AboutPage: React.FC = () => {
                     value={message}
                     onChange={(e) => setMessage(e.target.value)}
                     className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-brand-500"
+                    placeholder="Tell us about your audio needs or ask any questions..."
                     required
                   />
                 </div>
